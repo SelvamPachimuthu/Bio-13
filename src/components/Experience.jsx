@@ -2,28 +2,28 @@ import './Experience.css'
 
 const Experience = () => {
   const experiences = [
-    {
-      id: 1,
-      title: 'Senior Developer',
-      company: 'Tech Company A',
-      period: '2022 - Present',
-      description: 'Led development of multiple full-stack applications using React and Node.js'
-    },
-    {
-      id: 2,
-      title: 'Full Stack Developer',
-      company: 'Tech Company B',
-      period: '2021 - 2022',
-      description: 'Developed and maintained web applications, focused on frontend and backend integration'
-    },
-    {
-      id: 3,
-      title: 'Junior Developer',
-      company: 'Tech Company C',
-      period: '2020 - 2021',
-      description: 'Started my career working on frontend development with React and JavaScript'
-    }
-  ]
+  {
+    id: 1,
+    title: 'Associate Pharmacovigilance Specialist',
+    company: 'Clarivate',
+    period: 'Oct 2024 – Present',
+    description: 'Drug safety triager using Dialogue ML, literature monitoring and data validation, monitoring RSI, CCDS, CCSI or local label to confirm correct drug indication; applied Python and ML techniques for automation and data validation'
+  },
+  {
+    id: 2,
+    title: 'Senior Pharmacovigilance Specialist',
+    company: 'Oviya MedSafe',
+    period: 'Oct 2023 – Oct 2024',
+    description: 'ICSR processing from clinical trial reports, literatures, spontaneous reports; regulatory website screening; leveraged data engineering and machine learning workflows to streamline pharmacovigilance operations'
+  },
+  {
+    id: 3,
+    title: 'Pharmacovigilance Associate',
+    company: 'Oviya MedSafe',
+    period: 'Apr 2021 – Jul 2023',
+    description: 'Literature monitoring, ICSR processing and quality checking for clinical trial cases, literature cases, and spontaneous reports; integrated Python-based data science methods for case trend analysis and deep learning models for literature classification'
+  }
+];
 
   return (
     <div className="experience">
